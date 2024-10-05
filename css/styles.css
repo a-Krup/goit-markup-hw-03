@@ -15,10 +15,8 @@ body {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  
+  
   
 } 
   
@@ -35,6 +33,7 @@ a {
 }
 
 ul { 
+
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -43,6 +42,7 @@ ul {
 .item-menu {
       display: flex;
       gap: 40px; 
+
 }
 
 .logo {
@@ -53,10 +53,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 0px;
     width: auto; 
     height: auto;
@@ -73,7 +69,7 @@ ul {
 .nav-site {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: row;  
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 332px;
@@ -136,6 +132,13 @@ ul {
   padding-bottom: 188px;
   }
 
+.main-one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 .main-name{
     font-weight: 700;
     font-size: 56px;
@@ -189,6 +192,7 @@ ul {
     text-transform: capitalize;
     margin: 0;
     margin-bottom: 72px;
+    text-align: center;
     
 }
 
@@ -295,7 +299,8 @@ img {
   flex-wrap: wrap;
   justify-content: space-between; 
   flex-direction: row;
-  row-gap: 48px; 
+  row-gap: 48px;
+  column-gap: 24px; 
 }
 
 .name-prod {
@@ -317,21 +322,6 @@ img {
    
 }
 
-
-
-.ftr {
- width: 264px;
- padding-top: 100px;
- padding-bottom: 100px;
- margin-left: 156px;
- align-items: flex-start;
- justify-content: flex-start; 
- 
-}
-  
-  
-
-
 .span-ftr {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -344,8 +334,17 @@ img {
 }
 
 .pos-ftr {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;  
+    gap: 0px;
+    margin-bottom: 16px;
+    
     
 }
 
@@ -355,9 +354,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    text-align: left;
     width: 264px;
-    
-    
-    
+    text-align: left;
 }
