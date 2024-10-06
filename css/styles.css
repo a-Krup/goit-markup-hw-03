@@ -2,20 +2,18 @@ body {
     font-family: "Roboto", sans-serif;  
     background-color: #fff; 
     color:#434455; 
-    width: 1440px;
+   
 }
    
 .one {
     border-bottom: 1px solid #e7e9fc;
-    margin-bottom: 38px;
-          
+             
 }
 
 .container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
-  
   
   
 } 
@@ -70,11 +68,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: row;  
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 332px;
-  gap: 76px;
-  width: 261px;
+  
   
  
 }
@@ -85,6 +79,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .menu:hover,
@@ -132,12 +128,12 @@ ul {
   padding-bottom: 188px;
   }
 
-.main-one {
+/*.main-one {
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
-}
+}*/
 
 .main-name{
     font-weight: 700;
@@ -146,10 +142,11 @@ ul {
     letter-spacing: 0.02em;
     color: #fff;
     margin: 0;
-    width: 496px;
-    padding-top: 191px;
     margin-bottom: 48px;
     max-width: 496px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
                
 }
 
@@ -174,7 +171,9 @@ ul {
     justify-content: flex-start;
     flex-direction: row;
     gap: 10px;
-       
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
  }
 
 .btn-main:hover,
@@ -233,10 +232,6 @@ ul {
 }
 
 .feat-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
   text-align: left; 
 }
@@ -274,8 +269,6 @@ img {
 }
 
 .card-name {
-  display: flex;
-  flex-direction: column;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
@@ -285,14 +278,9 @@ img {
 }
 
 .name-team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding-top: 32px; 
   padding-bottom: 32px;
-
-    
+   
 }
 
 .prg {
@@ -308,14 +296,17 @@ img {
   column-gap: 24px; 
 }
 
+.prod-name {
+  background: #fff;
+  width: calc((100% - 48px) / 3);
+}
+
 .name-prod {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
   border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
  
     
 }
